@@ -2,7 +2,7 @@
 using namespace std;
 
 int part1(){
-    ifstream infile("Day01.txt");
+    ifstream infile("data/Day01.txt");
     int a,b;
     vector<int> left_list, right_list;
     while(infile >> a >> b){
@@ -22,7 +22,7 @@ int part1(){
 }
 
 long long part2(){
-    ifstream infile("Day01.txt");
+    ifstream infile("data/Day01.txt");
     int a,b;
     unordered_map<int,int> left_list, right_list;
     while(infile >> a >> b){
